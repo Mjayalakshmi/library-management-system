@@ -1,0 +1,10 @@
+# Backend ignore
+backend/
+backend/node_modules/
+
+# Frontend ignore
+frontend/node_modules/
+
+# Common
+node_modules/
+.env
