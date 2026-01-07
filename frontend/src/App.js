@@ -1,20 +1,17 @@
-import { useState } from "react";
-import Sidebar from "./Sidebar";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Books from "./Books";
 import Attendance from "./Attendance";
 
-export default function App() {
-  const [page, setPage] = useState("books");
-
+function App() {
   return (
-    <div className="layout">
-      <Sidebar page={page} setPage={setPage} />
-
-      <div className="content">
-        <h1>Library Management System</h1>
-        {page === "books" && <Books />}
-        {page === "attendance" && <Attendance />}
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Books />} />
+        <Route path="/attendance" element={<Attendance />} />
+      </Routes>
+    </Router>
   );
 }
+
+export default App;
+

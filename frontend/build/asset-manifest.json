@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/library-management-system/static/css/main.9d07af82.css",
+    "main.js": "/library-management-system/static/js/main.a491b22d.js",
+    "index.html": "/library-management-system/index.html",
+    "main.9d07af82.css.map": "/library-management-system/static/css/main.9d07af82.css.map",
+    "main.a491b22d.js.map": "/library-management-system/static/js/main.a491b22d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d07af82.css",
+    "static/js/main.a491b22d.js"
+  ]
+}
